@@ -4,7 +4,10 @@ import Conection  from './src/db.js';
 import routes from './src/routes/index.js'
 import cors from 'cors'
 import morgan from 'morgan'
+import dotenv from 'dotenv';
 
+
+dotenv.config();
 
 const app = express()
 app.use(cors());
