@@ -1,0 +1,28 @@
+{
+  "name": "serviceautomotor-backend",
+  "version": "1.0.0",
+  "description": "servidor de serviceAutomotor",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon L",
+    "start": "node L"
+  },
+  "repository": {
+    "type": "git",
+    "url": "serviceAutomotor-backend"
+  },
+  "author": "damian sola",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mkdirp": "^3.0.1",
+    "mongoose": "^8.4.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
