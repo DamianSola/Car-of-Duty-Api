@@ -6,12 +6,12 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon L",
+    "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "serviceAutomotor-backend"
+    "url": "https://github.com/DamianSola/Car-of-Duty-Api.git"
   },
   "author": "damian sola",
   "license": "ISC",
