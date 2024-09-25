@@ -92,7 +92,7 @@ export const newTurn = async (req, res, next) => {
 
         if(isNaN(dateTime.getTime())) return res.status(400).send({message: 'fecha no valida'})
 
-        let searchCustomer = await Customer.findOne({name: customer.name, email:customer.email})
+        let searchCustomer = await Customer.findOne({email:customer.email})
 
         if(!searchCustomer){
 
